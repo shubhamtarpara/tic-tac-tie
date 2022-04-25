@@ -152,7 +152,7 @@ var tieq = 0;
   
   const undo = () => {
     if (stack.length <= 0) {
-      alert("PLEASE START THE GAME FIRST");
+      alert("PLEASE RESTART THE GAME FIRST");
     }
     else {
       let x = document.getElementById(stack.pop());
